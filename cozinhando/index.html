@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozinhando</title>
+    <link rel="stylesheet" href="receitas.css">
+</head>
+<body>
+    <div id="box">
+    
+        <button id="adicionar" onclick="add()">Adicionar Receita</button>
+        <br><br>
+        <button id="ingredientes" disabled onclick="ing()">Adicionar Ingrediente</button>
+        <br><br>
+        <button disabled id="remover" onclick="rem(), ul()">Remover Receita</button>
+        <h1 class="titulo"></h1>
+        <ul id="container">
+
+        </ul>
+        <h1>Por favor após utilizar uma vez o botao de remover, atualize a pagina, (projeto em fase de testes)</h1>
+    </div>
+    <script src="cozinha.js"></script>
+</body>
+</html>

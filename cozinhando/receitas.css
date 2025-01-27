@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+#adicionar,#ingredientes{
+    background-color: rgb(99, 159, 9);
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    height: 50px;
+    transition: 0.6s;
+    padding: 10px;
+}
+#adicionar:hover,#ingredientes:hover,#remover:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border-radius: 10px;
+    width: 500px;
+    border: none;
+    height: 50px;
+    transition: 0.6s;
+    padding: 1px;
+}
+h1{
+    color: white;
+}
+#input1{
+    color: rgba(0, 0, 0, 0.658);
+    font-size: medium;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+#input1:focus{
+    outline: none;
+    border-color: blueviolet;
+}
+#remover{
+    background-color: red;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    height: 50px;
+    padding: 10px;
+}
+
+#remover:disabled,#ingredientes:disabled{
+    background-color: rgba(128, 128, 128, 0.314);
+    color: rgba(220, 220, 220, 0.663);
+    width: 200px;
+    font-size: medium;
+}
+li{
+    color: white;
+    font-size: large;
+    margin-left: 10px;
+    padding: 3px;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: none;
+    
+}
