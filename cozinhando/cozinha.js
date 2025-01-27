@@ -1,7 +1,7 @@
 let adic = document.querySelector("h1");
 let remove = document.getElementById("remover");
 let ingredi = document.getElementById("ingredientes");
-let container = document.querySelector("#container");
+let container = document.querySelector("#container").innerHTML;
 let list ;
 function add()
 {
@@ -44,7 +44,7 @@ else
 
 function rem()
 {   
-    container.remove()
+    container.innerHTML = "";
     adic.innerHTML = "";
     remove.setAttribute("disabled", "");
     ingredi.setAttribute("disabled", "");
