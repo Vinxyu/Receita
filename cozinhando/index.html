@@ -7,19 +7,44 @@
     <link rel="stylesheet" href="receitas.css">
 </head>
 <body>
-    <div id="box">
+
+<!-- Div que contém todos os botões -->
+
+<div id="box">
     
         <button id="adicionar" onclick="add()">Adicionar Receita</button>
         <br><br>
         <button id="ingredientes" disabled onclick="ing()">Adicionar Ingrediente</button>
         <br><br>
-        <button disabled id="remover" onclick="rem()">Remover Receita</button>
-        <h1 class="titulo"></h1>
-        <ul id="container">
+        <button id="modoprep" disabled onclick="mod()">Adicionar Modo de Preparo</button>
+        <br><br>
+        <button id="remover" disabled onclick="rem()">Remover Receita</button>
+</div>
 
-        </ul>
-        <h1>Por favor após utilizar uma vez o botao de remover, atualize a pagina, (projeto em fase de testes)</h1>
+<!-- Div que contém todos elementos da receita --> <br><br>
+
+<div id="content"> 
+    
+    <!-- Nome da Receita -->
+
+    <h1 class="titulo"></h1>
+
+    <!-- Lista -->
+    <h3></h3>
+    <ul id="container"></ul>
+    
+    <!-- Div do input -->
+        <h2></h2>
+    <div id="inputcontent">
+        <textarea id="inputpreparo" disabled></textarea>
+        <br><br>
+        <button id="admp" disabled onclick="">Adicionar Texto</button>
+        <br><br>
+        <h4></h4>
     </div>
+</div>
+
+
     <script src="cozinha.js"></script>
 </body>
 </html>
