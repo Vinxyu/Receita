@@ -13,6 +13,7 @@ let adic = document.querySelector("h1");
 let adic2 = document.querySelector("h2");
 let adic3 = document.querySelector("h3");
 let adic4 = document.querySelector("h4");
+let manu = document.querySelector("#modode");
 
 //FUNÇÃO ADICIONAR
 
@@ -74,12 +75,16 @@ function mod()
 
 function adm()
 {
-
+    manu.innerHTML = mode.value
+    console.log(mode.value)
+    mode.setAttribute("disabled", "");
+    butao.setAttribute("disabled", "");
 }
 
 //FUNÇÃO REMOVER
 function rem()
 {   
+    manu.innerHTML = "";
     container.innerHTML = "";
     adic.innerHTML = "";
     adic2.innerHTML = "";
