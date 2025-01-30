@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozinhando</title>
+    <link rel="stylesheet" href="receitas.css">
+</head>
+<body>
+<div id="titulo">
+    <h1>Boas-Vindas!</h1>
+    <p>Este é um site para salvar sua receita favorita</p>
+    <h3>Clique no botão para começar</h3>
+</div>
+<!-- Div que contém todos os botões -->
+
+<div id="box">
+    
+        <button id="adicionar" onclick="add()">Adicionar Receita</button>
+        <br><br>
+        <button id="ingredientes" disabled onclick="ing()">Adicionar Ingrediente</button>
+        <br><br>
+        <button id="modoprep" disabled onclick="mod()">Adicionar Modo de Preparo</button>
+        <br><br>
+        <button id="remover" disabled onclick="rem()">Remover Receita</button>
+</div>
+
+<!-- Div que contém todos elementos da receita --> <br><br>
+
+<div id="content"> 
+    
+    <!-- Nome da Receita -->
+
+    <h1 class="titulo"></h1>
+
+    <!-- Lista -->
+    <h3></h3>
+    <ul id="container"></ul>
+    
+    <!-- Div do input -->
+        <h2></h2>
+        <h4 id="modode"></h4>
+        <textarea id="inputpreparo" disabled></textarea>
+        <br><br>
+        <button id="admp" disabled onclick="adm()">Adicionar Texto</button>
+        <br><br>
+</div>
+
+
+    <script src="cozinha.js"></script>
+</body>
+</html>
