@@ -89,6 +89,7 @@ function rem()
     adic.innerHTML = "";
     adic2.innerHTML = "";
     adic3.innerHTML = "";
+    prep.setAttribute("disabled", "");
     remove.setAttribute("disabled", "");
     ingredi.setAttribute("disabled", "");
     mode.setAttribute("disabled", "");

@@ -127,3 +127,12 @@ li{
     height: 50px;
     padding: 10px;
 }
+
+#content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
